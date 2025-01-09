@@ -47,6 +47,12 @@
     </section>
 
     <script src="scripts.js"></script> <!-- Link to JS for functionality -->
+
+    <section id="substack">
+        <h2>ramblings of boghan</h2>
+        <iframe src="https://boghan.substack.com/embed" width="100%" height="600px" frameborder="0"></iframe>
+</section>
+
 </body>
 </html>
 

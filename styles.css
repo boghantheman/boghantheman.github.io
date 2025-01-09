@@ -1,0 +1,57 @@
+/* General Styles for Dark Mode */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background color */
+    color: #E0E0E0; /* Light text color */
+}
+
+header {
+    background-color: #333; /* Dark header */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #E0E0E0; /* Light text for links */
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #1E1E1E; /* Slightly lighter background for sections */
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Links hover effect */
+nav ul li a:hover {
+    color: #FFD700; /* Change color on hover */
+}
+
+section h2, footer p {
+    color: #FFD700; /* Golden text color for headings and footer */
+}
+
