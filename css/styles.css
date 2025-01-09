@@ -72,13 +72,12 @@ ul li {
 footer {
     text-align: center;
     background-color: #333;
-    color: white;
+    color: #1E1E1E;
     padding: 1rem 0;
     position: fixed; /* Fix footer at the bottom */
     width: 100%; /* Fill the entire width of the screen */
     bottom: 0; /* Align footer to the bottom */
     left: 0; /* Align to the left */
-}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
