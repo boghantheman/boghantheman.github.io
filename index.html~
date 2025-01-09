@@ -15,7 +15,7 @@
         <nav>
             <ul>
                 <li><a href="javascript:void(0);" onclick="showRandomImage()">gallery</a></li>
-                <li><a href="#projects">filler</a></li>
+                <li><a href="blog.html">blog</a></li>
                 <li><a href="#contact">filler</a></li>
             </ul>
         </nav>
@@ -45,7 +45,7 @@
         <h2>links</h2>
         <ul>
             <li><a href="https://boghan.substack.com/">substack</a> where i post sometimes</li>
-            <li><a href="irc://irc.libera.chat">IRC</a></li>
+            <li><a href="irc://irc.libera.chat">IRC</a> (libera.chat my beloved)</li>
             <li><a href="https://chaos.social/@boghan">chaos.social</a> (mastodon) i'm on there too and engage in much tomfoolery</li>
         </ul>
     </section>

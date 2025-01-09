@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bogsite - Blog</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to shared styles -->
+</head>
+<body>
+
+    <header>
+        <h1>bogsite Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="blog">
+        <div class="blog-post" onclick="toggleExpand(this)">
+            <h2>First Post</h2>
+            <p class="date">Posted on: January 1, 2025</p>
+            <p class="snippet">This is a brief introduction to my first blog post...</p>
+            <div class="full-content">
+                <p>This is the full content of the first blog post. It is only visible when the post is expanded.</p>
+            </div>
+        </div>
+        <div class="blog-post" onclick="toggleExpand(this)">
+            <h2>Second Post</h2>
+            <p class="date">Posted on: January 2, 2025</p>
+            <p class="snippet">Here's another short snippet for the second blog post...</p>
+            <div class="full-content">
+                <p>This is the full content of the second blog post. It contains more details.</p>
+            </div>
+        </div>
+        <!-- Add more blog posts here -->
+    </section>
+
+    <script src="scripts.js"></script> <!-- Link to shared scripts -->
+</body>
+</html>
+
