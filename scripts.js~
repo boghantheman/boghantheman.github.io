@@ -28,7 +28,7 @@ function showRandomImage() {
         'images/inventiondenomination.png',
         'images/isoverstopbeing.png',
         'images/josephblack.png',
-        'images/ISS.jpg',
+        'images/ISS.jpeg',
         'images/kanepet.gif',
         'images/livefortworeasons.png',
         'images/marriage.png',

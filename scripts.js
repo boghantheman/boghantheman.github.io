@@ -12,7 +12,7 @@ function showRandomImage() {
         'images/ca3strokes.png',
         'images/car.png',
         'images/clearlyoutnumbered.jpg',
-        'images/charles.jpg',
+        'images/charles.jpeg',
         'images/dryover.png',
         'images/englisheyes.png',
         'images/existenceover.png',
