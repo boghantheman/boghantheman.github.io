@@ -79,7 +79,6 @@ footer {
     bottom: 0; /* Align footer to the bottom */
     left: 0; /* Align to the left */
 
-/* Blog Post Styles */
 .blog-post {
     margin: 2rem 0;
     padding: 1rem;
@@ -87,39 +86,24 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-
-.blog-post h2 {
-    color: #6684dd;
-    margin: 0 0 0.5rem 0;
-}
-
-.blog-post .date {
-    font-size: 0.9rem;
-    color: #aaaaaa;
-    margin-bottom: 1rem;
-}
-
-.blog-post .snippet {
-    color: #E0E0E0;
-    margin-bottom: 1rem;
-    display: block;
+    overflow: hidden; /* Ensure hidden content stays out of view */
+    transition: all 0.3s ease; /* Smooth transitions */
+    max-height: 8rem; /* Default height for the snippet */
 }
 
 .blog-post .full-content {
-    display: none;
+    display: none; /* Hidden by default */
+    margin-top: 1rem;
     color: #E0E0E0;
 }
 
-/* Expanded state */
+/* Expanded post styling */
 .blog-post.expanded .full-content {
-    display: block;
+    display: block; /* Show content when expanded */
 }
 
 .blog-post.expanded {
-    max-height: none;
+    max-height: none; /* Allow full height when expanded */
 }
 
 

@@ -51,6 +51,7 @@ function showRandomImage() {
     // Open the image in a new tab
     window.open(randomImage, '_blank');
 }
+
 function toggleExpand(post) {
     post.classList.toggle('expanded');
 }
