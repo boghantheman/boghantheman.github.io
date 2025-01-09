@@ -16,6 +16,7 @@ body {
 .container {
     width: 80%; /* Adjust the width as needed */
     max-width: 1200px; /* Optional, limits maximum width */
+    margin-top: 2rem; /* Add some space from top */
 }
 
 /* Header Styling */
