@@ -79,16 +79,47 @@ footer {
     bottom: 0; /* Align footer to the bottom */
     left: 0; /* Align to the left */
 
+/* General Styling for Blog Page */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#blog-posts {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Space between posts */
+}
+
+/* Blog Post Styling */
 .blog-post {
-    margin: 2rem 0;
-    padding: 1rem;
     background-color: #1E1E1E;
+    padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    overflow: hidden; /* Ensure hidden content stays out of view */
-    transition: all 0.3s ease; /* Smooth transitions */
+    cursor: pointer; /* Indicate interactivity */
+    overflow: hidden;
+    transition: all 0.3s ease; /* Smooth expansion */
     max-height: 8rem; /* Default height for the snippet */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-post:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Highlight on hover */
 }
 
 .blog-post .full-content {
@@ -105,6 +136,7 @@ footer {
 .blog-post.expanded {
     max-height: none; /* Allow full height when expanded */
 }
+
 
 
 /* Responsive Styles */

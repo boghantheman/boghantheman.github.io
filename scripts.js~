@@ -51,7 +51,9 @@ function showRandomImage() {
     // Open the image in a new tab
     window.open(randomImage, '_blank');
 }
+
 function toggleExpand(post) {
+    // Add or remove the 'expanded' class to toggle visibility of full content
     post.classList.toggle('expanded');
 }
 
