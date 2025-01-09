@@ -6,17 +6,11 @@ body {
     background-color: #121212; /* Dark background color */
     color: #E0E0E0; /* Light text color */
     display: flex; /* Use flexbox to center content */
-    justify-content: center; /* Center horizontally */
-    align-items: flex-start; /* Align content to the top */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Keep the header and content at the top */
+    align-items: center; /* Center content horizontally */
     min-height: 100vh; /* Ensure the full height is covered */
     text-align: left; /* Keep text aligned to the left */
-}
-
-/* Container for content */
-.container {
-    width: 80%; /* Adjust the width as needed */
-    max-width: 1200px; /* Optional, limits maximum width */
-    margin-top: 2rem; /* Add some space from top */
 }
 
 /* Header Styling */
@@ -25,6 +19,7 @@ header {
     color: white;
     padding: 1rem 0;
     text-align: center;
+    width: 100%;
 }
 
 /* Navigation styling */
@@ -55,11 +50,22 @@ section {
     background-color: #1E1E1E; /* Slightly lighter background for sections */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Light shadow to make sections stand out */
+    width: 90%; /* Allow sections to take up most of the screen */
+    max-width: 1200px; /* Optional, limits maximum width */
 }
 
 /* Text color for headings and footer */
 section h2, footer p {
     color: #6684dd; /* Blue text color for headings and footer */
+}
+
+/* Links styling */
+ul {
+    padding-left: 1rem; /* Indent list items */
+}
+
+ul li {
+    margin-bottom: 1rem; /* Space between links */
 }
 
 /* Footer Styling */
@@ -71,5 +77,19 @@ footer {
     position: relative; /* Prevent overlap with content */
     width: 100%;
     bottom: 0;
+    margin-top: auto; /* Ensures footer sticks to bottom when content is short */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust for mobile view */
+    body {
+        padding: 0 1rem;
+    }
+
+    section {
+        width: 100%; /* Ensure sections take up full width on smaller screens */
+        margin: 1rem 0; /* Reduce margins for smaller screens */
+    }
 }
 
