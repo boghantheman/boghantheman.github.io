@@ -52,8 +52,6 @@ function showRandomImage() {
     window.open(randomImage, '_blank');
 }
 
-function toggleExpand(post) {
-    // Add or remove the 'expanded' class to toggle visibility of full content
-    post.classList.toggle('expanded');
-}
+
+
 

@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog - Boghan</title>
+    <title>bloghan</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="scripts.js" defer></script>
+    <link rel="icon" href="assets/ca3.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1>Blog</h1>
+        <h1>bloghan</h1>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="showRandomImage()">gallery</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="#contact">filler</a></li>
+            </ul>
+        </nav>
     </header>
     <section id="blog-posts">
-        <div class="blog-post" onclick="toggleExpand(this)">
-            <h2>First Post</h2>
-            <p class="date">Posted on: January 1, 2025</p>
-            <p class="snippet">This is a brief introduction to my first blog post...</p>
-            <div class="full-content">
+            <h2>title</h2>
                 <p>This is the full content of the first blog post. It is only visible when the post is expanded.</p>
-            </div>
-        </div>
-        <div class="blog-post" onclick="toggleExpand(this)">
-            <h2>Second Post</h2>
-            <p class="date">Posted on: January 2, 2025</p>
-            <p class="snippet">Another brief introduction for my second blog post...</p>
-            <div class="full-content">
-                <p>This is the full content of the second blog post. It is only visible when the post is expanded.</p>
             </div>
         </div>
     </section>
