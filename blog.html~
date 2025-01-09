@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>bloghan</title>
+    <title>bogsite</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="scripts.js" defer></script>
     <link rel="icon" href="assets/ca3.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1>bloghan</h1>
+        <h1>[matthew 7:3]</h1>
         <nav>
             <ul>
-                <li><a href="javascript:void(0);" onclick="showRandomImage()">gallery</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="#contact">filler</a></li>
+                <li><a href="index.html">home</a></li>
             </ul>
         </nav>
     </header>
     <section id="blog-posts">
-            <h2>title</h2>
-                <p>yap</p>
-            </div>
-        </div>
+       <h2>[romans 3:23, 9/1/25]</h2>
+          <p>this is the first blog post, i suppose</p>
+          <p>it's a little different than other stuff i've done before, like the substack. there are a lot of comfort features on there, and i tend to have a specific topic or event to talk about. here i'm just typing in a html file and then pushing it to the github page. but that's alright. it's not perfect (romans 3:23) but maybe it will be something to look back on in the future. also i'm going to try to pick out a bible verse for each post because it's an interesting motif<p>
+          <p>i think that's all for this first post. hopefully more to come.<p>
+          <p><q>Romans 3:23, New Revised Standard Version Catholic Edition<br>since all have sinned and fall short of the glory of God;<p>
     </section>
 </body>
 </html>
