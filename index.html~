@@ -30,22 +30,28 @@
         <p>boghan & co<p>
         <p>bogging hans since 1362<p>
         <p>ⲀⲰ <p>
-        <li><a href="https://boghan.substack.com/">substack</a></li>
+
+        <p>my pronouns are she/her, my antinouns are her/sheys and they're terribly unhealthy
+
+        <p>i have some autistic special interests, some more intense than others, among which theology, philosophy, and programming rank the highest<p> 
     </section>
 
         </ul>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
+        <h2>contact</h2>
         <p>email: <a href="mailto:boghan@boghan.party">boghan@boghan.party</a></p>
     </section>
 
     <script src="scripts.js"></script> <!-- Link to JS for functionality -->
 
-    <section id="substack">
-        <h2>ramblings of boghan</h2>
-        <iframe src="https://boghan.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    <section id="links">
+        <h2>links</h2>
+        <p>this is the <li><a href="https://boghan.substack.com/">substack</a></li> where i post sometimes<p> 
+        <p>i'm on <a href="irc://irc.libera.chat">irc</a> too <p>
+        <p>if you're on <li><a href ="https://chaos.social/@boghan">chaos.social</a></li> (mastodon) i'm there and an utter gremlin<p>
+        
     </section>
 
 </body>
