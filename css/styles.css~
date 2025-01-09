@@ -1,6 +1,6 @@
 /* General Styles for Dark Mode */
 body {
-    font-family: 'Courier New', Courier, monospace; /* Typewriter font */;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
     margin: 0;
     padding: 0;
     background-color: #121212; /* Dark background color */

@@ -1,6 +1,6 @@
 /* General Styles for Dark Mode */
 body {
-    font-family: 'Courier New', Courier, monospace; /* Typewriter font */;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
     margin: 0;
     padding: 0;
     background-color: #121212; /* Dark background color */
@@ -29,29 +29,32 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: #FFD700; /* Change color on hover */
+}
+
+/* Sections styling */
 section {
     padding: 2rem;
     margin: 2rem 0;
     background-color: #1E1E1E; /* Slightly lighter background for sections */
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Light shadow to make sections stand out */
 }
 
+/* Text color for headings and footer */
+section h2, footer p {
+    color: #6684dd; /* Blue text color for headings and footer */
+}
+
+/* Footer styling */
 footer {
     text-align: center;
     background-color: #333;
     color: white;
     padding: 1rem 0;
-    position: fixed;
+    position: relative; /* Prevent overlap with content */
     width: 100%;
     bottom: 0;
-}
-
-/* Links hover effect */
-nav ul li a:hover {
-    color: #FFD700; /* Change color on hover */
-}
-
-section h2, footer p {
-    color: #6684dd; /* blue text color for headings and footer */
 }
 
