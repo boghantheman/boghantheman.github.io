@@ -1,0 +1,70 @@
+/* General Styles for Dark Mode */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background color */
+    color: #E0E0E0; /* Light text color */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Keep the header and content at the top */
+    align-items: center; /* Center content horizontally */
+    min-height: 100vh; /* Ensure the full height is covered */
+    text-align: left; /* Keep text aligned to the left */
+}
+
+/* Header Styling */
+header {
+    background-color: #333; /* Dark header */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #E0E0E0; /* Light text for links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #6684dd; /* Change color on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #1E1E1E; /* Slightly lighter background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Light shadow to make sections stand out */
+    width: 90%; /* Allow sections to take up most of the screen */
+    max-width: 1200px; /* Optional, limits maximum width */
+}
+
+/* Text color for headings and footer */
+section h2, footer p {
+    color: #6684dd; /* Blue text color for headings and footer */
+}
+
+/* Links styling */
+ul {
+    padding-left: 1rem; /* Indent list items */
+}
+
+ul li {
+    margin-bottom: 1rem; /* Space between links */
+}
+
