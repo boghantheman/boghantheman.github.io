@@ -1,1 +1,52 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bogsite</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS for styling -->
+</head>
+<body>
+
+    <header>
+        <h1>bogsite</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">filler</a></li>
+                <li><a href="#projects">filler</a></li>
+                <li><a href="#contact">filler</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>about the bogger han</h2>
+        <p>boghan
+i am boghan, bogger of hans.
+hans wait for the day they get bogged by me
+"So I was bogging this han" - boghan, 1364
+boghan & co
+bogging hans since 1362
+ⲀⲰ
+https://boghan.substack.com/</p>
+    </section>
+
+    <section id="projects">
+        <h2>filler</h2>
+        <ul>
+            <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
+            <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
+            <!-- Add more projects here -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>email: <a href="mailto:boghan@boghan.party">boghan@boghan.party</a></p>
+    </section>
+
+    <script src="scripts.js"></script> <!-- Link to JS for functionality -->
+</body>
+</html>
+
