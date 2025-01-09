@@ -5,8 +5,20 @@ body {
     padding: 0;
     background-color: #121212; /* Dark background color */
     color: #E0E0E0; /* Light text color */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align content to the top */
+    min-height: 100vh; /* Ensure the full height is covered */
+    text-align: left; /* Keep text aligned to the left */
 }
 
+/* Container for content */
+.container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Optional, limits maximum width */
+}
+
+/* Header Styling */
 header {
     background-color: #333; /* Dark header */
     color: white;
@@ -14,9 +26,11 @@ header {
     text-align: center;
 }
 
+/* Navigation styling */
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -33,7 +47,7 @@ nav ul li a:hover {
     color: #FFD700; /* Change color on hover */
 }
 
-/* Sections styling */
+/* Section Styling */
 section {
     padding: 2rem;
     margin: 2rem 0;
@@ -47,7 +61,7 @@ section h2, footer p {
     color: #6684dd; /* Blue text color for headings and footer */
 }
 
-/* Footer styling */
+/* Footer Styling */
 footer {
     text-align: center;
     background-color: #333;
