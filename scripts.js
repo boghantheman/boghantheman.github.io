@@ -41,7 +41,9 @@ function showRandomImage() {
         'images/smithpentagon.png',
         'images/someofyouarecatholic.png',
         'images/THOMIST.png',
-        'images/WLClookbad.png'
+        'images/WLClookbad.png',
+        'images/hatfox.png',
+        'images/iu.png'
         
     ];
 
