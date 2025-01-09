@@ -52,6 +52,6 @@ nav ul li a:hover {
 }
 
 section h2, footer p {
-    color: #FFD700; /* Golden text color for headings and footer */
+    color: #6684dd; /* blue text color for headings and footer */
 }
 
