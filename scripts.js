@@ -43,7 +43,12 @@ function showRandomImage() {
         'images/THOMIST.png',
         'images/WLClookbad.png',
         'images/hatfox.png',
-        'images/iu.png'
+        'images/iu.png',
+        'images/stack.png',
+        'images/creature.png',
+        'images/meow1',
+        'images/meow2'
+
         
     ];
 

@@ -20,6 +20,12 @@
     </header>
 
     <section id="blog-posts">
+       <h2>[1 john 4:8, 10/1/25]</h2>
+          <p>i think maybe i like this format a little better than the substack. it's always a big writing on something important™ on there but here i can just drop a little snippet of thought and be done with it, so that's cool.</p>
+          <p>as of right now the site has two sections other than the home, and one of them is just labeled "filler" and goes nowhere. i should probably think of something to put there. and also expand the gallery every now and then.</p>
+          <p>i'm enjoying mastodon. chaos.social is being treated to banger posts such as <li><a href="https://chaos.social/@boghan/113798654788823122">this</a></li>  and <li><a href="https://chaos.social/@boghan/113798513346081766">this</a></li></p>
+          <p>i wonder if i should add hidden sections of the site with exclusive content. or maybe they already exist. i mean haha what was i saying you didn't hear anything</p>
+          <p><q>1 John 4:8, New Revised Standard Version Catholic Edition <br>Whoever does not love does not know God, for God is love.<p> 
        <h2>[romans 3:23, 9/1/25]</h2>
           <p>this is the first blog post, i suppose</p>
           <p>it's a little different than other stuff i've done before, like the substack. there are a lot of comfort features on there, and i tend to have a specific topic or event to talk about. here i'm just typing in a html file and then pushing it to the github page. but that's alright. it's not perfect (romans 3:23) but maybe it will be something to look back on in the future. also i'm going to try to pick out a bible verse for each post because it's an interesting motif<p>
@@ -39,7 +45,7 @@
                 data-reactions-enabled="1"
                 data-emit-metadata="0"
                 data-input-position="top"
-                data-theme="dark"
+                data-theme="dark_dimmed"
                 data-lang="en"
                 crossorigin="anonymous"
                 async>
