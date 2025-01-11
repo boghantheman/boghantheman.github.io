@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bogsite</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts.js" defer></script>
+    <link rel="icon" href="assets/ca3.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>writing</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="writing-content">
+        <h2>title</h2>
+        <pre id="text-container">loading...</pre>
+    </section>
+
+    <script>
+        // Fetch and display the text file content
+        fetch('writing.txt')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(text => {
+                document.getElementById('text-container').textContent = text;
+            })
+            .catch(error => {
+                document.getElementById('text-container').textContent = 'error loading content.';
+                console.error('Error fetching text file:', error);
+            });
+    </script>
+</body>
+</html>
+
