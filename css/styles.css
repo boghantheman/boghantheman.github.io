@@ -68,6 +68,7 @@ ul li {
     margin-bottom: 1rem; /* Space between links */
 }
 
+
 /* Footer Styling */
 footer {
     text-align: center;
@@ -152,3 +153,19 @@ header {
     }
 }
 
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
