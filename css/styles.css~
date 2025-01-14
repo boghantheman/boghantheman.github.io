@@ -154,18 +154,26 @@ header {
 }
 
 <style>
+.outer-container {
+  position: relative;
+  width: 50%; /* Halve the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  transform: scale(0.5); /* Scale down the container and video */
+  transform-origin: top left; /* Ensure scaling starts from the top left */
+}
+
 .video-container {
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
 }
 
 .video-container video {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 </style>
