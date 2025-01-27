@@ -154,26 +154,36 @@ header {
 }
 
 <style>
-.outer-container {
-  position: relative;
-  width: 50%; /* Halve the width of the container */
-  margin: 0 auto; /* Center the container horizontally */
-  transform: scale(0.5); /* Scale down the container and video */
-  transform-origin: top left; /* Ensure scaling starts from the top left */
-}
-
 .video-container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+  width: 50%; /* Halve the container width */
+  margin: 0 auto; /* Center the container */
 }
 
 .video-container video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100%; /* Make the video fill the halved container */
+  height: auto; /* Maintain the aspect ratio */
 }
 </style>
+<style>
+.emoji {
+    width: 10px !important; /* Set a fixed width */
+    height: 10px !important; /* Set a fixed height */
+    vertical-align: middle; /* Align with text */
+    object-fit: contain;
+    display: inline-block;
+}
+</style>
+<style>
+.emoji-wrapper {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    overflow: hidden;
+}
+.emoji-wrapper img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain; /* Ensures scaling within the wrapper */
+}
+</style>
+
