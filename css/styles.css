@@ -173,6 +173,13 @@ header {
     display: inline-block;
 }
 </style>
+
+<style
+.hidden {
+display: none;
+}
+</style>
+
 <style>
 .emoji-wrapper {
     width: 5px;
