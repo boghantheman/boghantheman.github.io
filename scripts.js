@@ -59,6 +59,28 @@ function showRandomImage() {
     window.open(randomImage, '_blank');
 }
 
+// setting the correct date and time
+const targetDate = new Date('2025-05-23T18:30:00');
+
+function updateTimeSince() {
+    const now = new Date();
+    const timeDifference = now - targetDate;
+
+    // time calculations
+    const seconds = Math.floor((timeDifference / 1000) % 60);
+    const minutes = Math.floor((timeDifference / (1000 * 60)) % 60);
+    const hours = Math.floor((timeDifference / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+    // updating the display
+    document.getElementById('timeSince').innerText =
+        `${days} days, ${hours} hours, ${minutes} minutes, and ${seconds} seconds, since ${targetDate.toLocaleString()}`;
+}
+
+// update it every second
+setInterval(updateTimeSince, 1000);
+updateTimeSince();
+
 
 
 
