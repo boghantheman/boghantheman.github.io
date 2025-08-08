@@ -61,34 +61,7 @@
     </section>
 
     <section id="88x31">
-    
-         <script type="application/json" id="json-data">
-        {
-            "$schema": "https://codeberg.org/LunarEclipse/well-known-button/raw/branch/main/drafts/button-2024-06.schema.json",
-            "default": "boghan.party",
-            "buttons": [
-                {
-                    "id": "boghan.party",
-                    "uri": "https://boghan.party/88x31/boghanparty.png",
-                    "alt": "boghan button :3",
-                    "link": "https://boghan.party",
-                    "sha256": "7dc603147c376b243942867a07ada6b7d82c49733e65225c48a5c181aa9abfaa"
-                }
-            ]
-        }
-    </script>
 
-    <script>
-        const jsonData = JSON.parse(document.getElementById('json-data').textContent);
-        console.log(jsonData);
-        
-        const button = jsonData.buttons[0];
-        document.body.innerHTML += `<a href="${button.link}" target="_blank">
-            <img src="${button.uri}" alt="${button.alt}" />
-        </a>`;
-    </script>
-
-    
         <img src="88x31/boghanparty.png" alt="boghan.party" height="31" width="88">
         <img src="88x31/acab.gif" alt="acab" height="31" width="88">
         <img src="88x31/ao3gif.gif" alt="ao3gif" height="31" width="88">
@@ -140,7 +113,33 @@
 
 
     </section>
+        
+         <script type="application/json" id="json-data">
+        {
+            "$schema": "https://codeberg.org/LunarEclipse/well-known-button/raw/branch/main/drafts/button-2024-06.schema.json",
+            "default": "boghan.party",
+            "buttons": [
+                {
+                    "id": "boghan.party",
+                    "uri": "https://boghan.party/88x31/boghanparty.png",
+                    "alt": "boghan button :3",
+                    "link": "https://boghan.party",
+                    "sha256": "7dc603147c376b243942867a07ada6b7d82c49733e65225c48a5c181aa9abfaa"
+                }
+            ]
+        }
+    </script>
 
+    <script>
+        const jsonData = JSON.parse(document.getElementById('json-data').textContent);
+        console.log(jsonData);
+        
+        const button = jsonData.buttons[0];
+        document.body.innerHTML += `<a href="${button.link}" target="_blank">
+            <img src="${button.uri}" alt="${button.alt}" />
+        </a>`;
+    </script>
+        
     <footer>
         <p>[^^][<a href= "rats.txt" class=hidden>>:3</a>][><][;-;][:o]</p>
     </footer>
